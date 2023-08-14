@@ -1,0 +1,42 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 1.5rem Arial;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background:white ;
+    border-radius: 10px;
+    width: 500px;
+    padding:15px;
+    margin: auto;
+    color: black;
+    /* text-align: center; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #1e32ce;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+}
+
+#btn{
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
